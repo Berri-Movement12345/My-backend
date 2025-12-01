@@ -29,12 +29,12 @@ app.use(cors());
 
 
 
-const userRoutes = require ("./routes/userRoutes");
+const userRoutes = require ("./routes/userRoute");
 app.use("/users", userRoutes);
 
 
-const postRoutes = require ("./routes/postRoutes");
-app.use("/posts", postRoutes);
+// const postRoutes = require ("./routes/postRoutes");
+// app.use("/posts", postRoutes);
 
 
 
